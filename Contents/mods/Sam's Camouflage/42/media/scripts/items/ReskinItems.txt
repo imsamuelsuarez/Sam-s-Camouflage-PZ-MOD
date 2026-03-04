@@ -92,7 +92,7 @@ module Base
         WeaponReloadType = boltaction,
         StaticModel = M16_Winter,
         WorldStaticModel = M16_Winter,
-        WeaponSprite = AssaultRifle,
+        WeaponSprite = M16_Winter,
         DisplayName = M16 (Winter Camo),
         Tags = base:hasmetal;base:firearm,
     }
