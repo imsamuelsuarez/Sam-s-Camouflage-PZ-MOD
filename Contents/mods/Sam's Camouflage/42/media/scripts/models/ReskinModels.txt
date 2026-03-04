@@ -1,0 +1,8 @@
+module Base
+{
+    model M16_Winter
+    {
+        mesh = AssaultRifle,
+        texture = weapons/firearm/AssaultRifleCamoWinter,
+    }
+}
