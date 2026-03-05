@@ -1,0 +1,18 @@
+module Base
+{
+    craftRecipe M16_Winter_Camo_Recipe
+    {
+        Tags        = InHandCraft;CanBeDoneInDark,
+        time        = 15,
+        category    = Weaponry,
+        onCreate = ApplyWeaponSprite,
+        inputs,
+        {
+            item 1 [Base.AssaultRifle],
+        }
+        outputs
+        {
+            item 1 Base.AssaultRifle,
+        }
+    }
+}
