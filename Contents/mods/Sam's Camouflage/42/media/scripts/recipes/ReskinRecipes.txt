@@ -2,17 +2,20 @@ module Base
 {
     craftRecipe M16_Winter_Camo_Recipe
     {
-        Tags        = InHandCraft;CanBeDoneInDark,
+        
+        tags        = InHandCraft;CanBeDoneInDark,
         time        = 15,
+        OnCreate = WeaponOnCreateSetRandomModel,
         category    = Weaponry,
-        onCreate = ApplyWeaponSprite,
-        inputs,
+        inputs
         {
-            item 1 [Base.AssaultRifle],
+            item 1 [Base.AssaultRifle] flags[Prop2;InheritCondition;InheritAmmunition],
         }
         outputs
         {
             item 1 Base.AssaultRifle,
         }
-    }
+    
+    } 
+
 }
